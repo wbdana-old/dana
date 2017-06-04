@@ -2,8 +2,7 @@ body {
   min-width: 550px;      /* 2x LC width + RC width */
   font-family: sans-serif;
   text-align: center;
-  color: white;
-  background: black;
+  background: white;
 }
 
 #header {
@@ -18,7 +17,7 @@ h1 {
 #container {
   padding-left: 200px;   /* LC width */
   padding-right: 150px;  /* RC width */
-  background: black;
+  background: red;
 }
 #container .column {
   position: relative;
@@ -27,8 +26,9 @@ h1 {
 }
 #center {
   width: 100%;
-  background: black;
+  background: green;
   z-index: 0;
+  color: white;
 }
 
 div#center p {
@@ -40,18 +40,18 @@ div#center p {
   width: 200px;          /* LC width */
   right: 200px;          /* LC width */
   margin-left: -100%;
-  background: black;
+  background: aqua;
   color: white;
 }
 #right {
   width: 150px;          /* RC width */
   margin-right: -150px;  /* RC width */
-  background: black;
+  background: purple;
   color: white;
 }
 #footer {
   clear: both;
-  background: black;
+  background: blue;
   text-decoration: underline;
 }
 
