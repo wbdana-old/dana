@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   text-align: center;
   color: white;
+  background: black;
 }
 
 #header {
@@ -17,7 +18,7 @@ h1 {
 #container {
   padding-left: 200px;   /* LC width */
   padding-right: 150px;  /* RC width */
-  background: aqua;
+  background: black;
 }
 #container .column {
   position: relative;
@@ -39,14 +40,14 @@ div#center p {
   width: 200px;          /* LC width */
   right: 200px;          /* LC width */
   margin-left: -100%;
-  background: aqua;
-  color: black;
+  background: black;
+  color: white;
 }
 #right {
   width: 150px;          /* RC width */
   margin-right: -150px;  /* RC width */
-  background: aqua;
-  color: black;
+  background: black;
+  color: white;
 }
 #footer {
   clear: both;
